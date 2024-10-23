@@ -115,6 +115,9 @@ vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper win
 vim.keymap.set('n', '<leader>`', '"+')
 vim.keymap.set('v', '<leader>`', '"+')
 
+-- visual paste pls dont be annoying
+vim.keymap.set('v', 'p', '"_dP', { noremap = true, silent = true })
+
 local border = {
   { '┌', 'FloatBorder' },
   { '─', 'FloatBorder' },
