@@ -822,6 +822,7 @@ require('lazy').setup({
         MiniStatuslineModeVisual = { link = 'GruvboxPurpleSign' },
         MiniStatuslineModeReplace = { link = 'GruvboxRedSign' },
         MiniStatuslineModeCommand = { link = 'GruvboxYellowSign' },
+        CopilotSuggestion = { link = 'GruvboxFg4' },
       },
     },
     init = function()
