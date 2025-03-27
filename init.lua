@@ -7,6 +7,9 @@ vim.g.maplocalleader = ' '
 -- Set to true if you have a Nerd Font installed and selected in the terminal
 vim.g.have_nerd_font = true
 
+-- Set python3 binary path to skip detecting python3 which takes a long time
+vim.g.python3_host_prog = '/usr/bin/env python3'
+
 -- [[ Setting options ]]
 -- See `:help vim.opt`
 -- NOTE: You can change these options as you wish!
