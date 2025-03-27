@@ -877,11 +877,6 @@ require('lazy').setup({
       transparent_mode = true,
       invert_signs = true,
       overrides = {
-        MiniStatuslineModeNormal = { link = 'GruvboxBlueSign' },
-        MiniStatuslineModeInsert = { link = 'GruvboxGreenSign' },
-        MiniStatuslineModeVisual = { link = 'GruvboxPurpleSign' },
-        MiniStatuslineModeReplace = { link = 'GruvboxRedSign' },
-        MiniStatuslineModeCommand = { link = 'GruvboxYellowSign' },
         CopilotSuggestion = { link = 'GruvboxFg4' },
       },
     },
