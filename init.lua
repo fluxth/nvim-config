@@ -637,16 +637,6 @@ require('lazy').setup({
         terraformls = {},
         yamlls = {},
         svelte = {},
-        volar = {
-          init_options = {
-            vue = {
-              hybridMode = false,
-            },
-            typescript = {
-              tsdk = vim.fn.getcwd() .. '/node_modules/typescript/lib',
-            },
-          },
-        },
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
