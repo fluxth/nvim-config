@@ -1,0 +1,10 @@
+{
+  "lua-language-server": "3.18.2",
+  "pyright": "1.1.410",
+  "rust-analyzer": "2026-06-15",
+  "stylua": "v2.5.2",
+  "svelte-language-server": "0.18.2",
+  "terraform-ls": "v0.38.7",
+  "typescript-language-server": "5.3.0",
+  "yaml-language-server": "1.23.0"
+}
